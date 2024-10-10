@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Pixel;
+    src: url(tahoma.otf);
+}
+
+#box1 {
+    border: 5px solid;
+    border-color: aliceblue;
+    width: 600px;
+    height: 400px;
+    background: red;
+}
+
+body {
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-family: "Press Start 2P", sans-serif;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+a{
+    font-family: "Press Start 2P", sans-serif;
+    color: aliceblue;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+#ti{
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+#bigbox{
+    border: 5px solid;
+    padding: 30px;
+    border-color: rgb(251, 255, 0);
+    width: 1200px;
+    height: 800px;
+    font-size: 22px;
+    background: rgb(93, 94, 86);
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#box2{
+    border: 5px solid;
+    padding: 30px;
+    border-color: blue;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    margin-left: 20%;
+    margin-top: 5%;
+    display: flex;
+}
+
+#box3{
+    border: 5px solid;
+    padding: 30px;
+    border-color: blue;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    margin-left: 20%;
+    margin-top: 5%;
+    display: flex;
+}
+
+#box4{
+
+}
+
+#box5{
+
+}
