@@ -3,14 +3,6 @@
     src: url(tahoma.otf);
 }
 
-#box1 {
-    border: 5px solid;
-    border-color: aliceblue;
-    width: 600px;
-    height: 400px;
-    background: red;
-}
-
 body {
     background-image: url("back.jpg");
     background-repeat: no-repeat;
@@ -37,7 +29,13 @@ a{
     color: aliceblue;
     font-size: xx-large;
     text-decoration: none;
+    margin-top: 70px;
 }
+
+a:hover {
+    color: rgb(122, 113, 113);
+}
+
 
 img {
     display: block;
@@ -62,6 +60,8 @@ a.fill-div {
     text-align: center;
 }
 
+
+
 #bigbox{
     border: 5px solid;
     padding: 30px;
@@ -83,6 +83,47 @@ a.fill-div {
     flex-wrap: wrap;
 }
 
+#boxres {
+    border: 5px solid;
+    padding: 30px;
+    border-color: rgb(25, 26, 44);
+    width: 800px;
+    height: 900px;
+    font-size: 22px;
+    background: rgb(22, 19, 34);
+   
+    position: absolute;
+    top:50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#box1 {
+    border: 5px solid;
+    padding: 30px;
+    border-color: rgb(25, 26, 44);
+    width: 450px;
+    height: 400px;
+    font-size: 22px;
+    background: rgb(22, 19, 34);
+   
+    position: absolute;
+    top:50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 #box2{
     border: 5px solid;
@@ -116,8 +157,4 @@ a.fill-div {
 
 #box3:hover {
     border-color: rgb(41, 38, 39);
-}
-
-#box4{
-
 }
