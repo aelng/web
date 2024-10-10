@@ -24,7 +24,7 @@ p {
     text-align: center;
 }
 
-a{
+#a{
     font-family: "Press Start 2P", sans-serif;
     color: aliceblue;
     font-size: xx-large;
@@ -32,10 +32,23 @@ a{
     margin-top: 70px;
 }
 
-a:hover {
+#a:hover {
     color: rgb(122, 113, 113);
 }
 
+#backbutton{
+    font-family: "Press Start 2P", sans-serif;
+    color: aliceblue;
+    font-size: xx-large;
+    text-decoration: none;
+    top: 1%;
+    margin-left: 5px;
+    position: absolute;
+}
+
+#backbutton:hover{
+    color: rgb(122, 113, 113);
+}
 
 img {
     display: block;
@@ -55,6 +68,8 @@ a.fill-div {
     margin-right: auto;
     width: 650px;
 }
+
+
 
 #boxti{
     text-align: center;
