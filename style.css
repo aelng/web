@@ -25,10 +25,30 @@ h1{
     font-size: xx-large;
 }
 
+p {
+    font-family: "Press Start 2P", sans-serif;
+    color: aliceblue;
+    font-size: small;
+    text-align: center;
+}
+
 a{
     font-family: "Press Start 2P", sans-serif;
     color: aliceblue;
     font-size: xx-large;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
     text-decoration: none;
 }
 
@@ -38,48 +58,66 @@ a{
     width: 650px;
 }
 
+#boxti{
+    text-align: center;
+}
+
 #bigbox{
     border: 5px solid;
     padding: 30px;
-    border-color: rgb(251, 255, 0);
+    border-color: rgb(25, 26, 44);
     width: 1200px;
     height: 800px;
     font-size: 22px;
-    background: rgb(93, 94, 86);
-    margin-left: 20%;
-    margin-top: 5%;
+    background: rgb(22, 19, 34);
+   
+    position: absolute;
+    top:50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+
 
 #box2{
     border: 5px solid;
     padding: 30px;
-    border-color: blue;
-    width: 250px;
+    border-color: rgb(12, 12, 11);
+    width: 400px;
     height: 250px;
     font-size: 22px;
-    background: greenyellow;
-    margin-left: 20%;
+    background: rgb(12, 12, 11);
+    margin-left: 2%;
     margin-top: 5%;
-    display: flex;
+    
+}
+
+#box2:hover {
+    border-color: rgb(41, 38, 39);
 }
 
 #box3{
     border: 5px solid;
     padding: 30px;
-    border-color: blue;
-    width: 250px;
+    border-color: rgb(12, 12, 11);
+    width: 400px;
     height: 250px;
     font-size: 22px;
-    background: greenyellow;
-    margin-left: 20%;
+    background: rgb(12, 12, 11);
+    margin-left: 15%;
     margin-top: 5%;
-    display: flex;
+
+}
+
+#box3:hover {
+    border-color: rgb(41, 38, 39);
 }
 
 #box4{
-
-}
-
-#box5{
 
 }
