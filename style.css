@@ -14,22 +14,22 @@ body {
 h1{
     font-family: "Press Start 2P", sans-serif;
     color: aliceblue;
-    font-size: xx-large;
+    font-size: 1.7vw;
 }
 
 p {
     font-family: "Press Start 2P", sans-serif;
     color: aliceblue;
-    font-size: small;
+    font-size: 0.7vw;
     text-align: center;
 }
 
 #a{
     font-family: "Press Start 2P", sans-serif;
     color: aliceblue;
-    font-size: xx-large;
+    font-size: 1.7vw;
     text-decoration: none;
-    margin-top: 70px;
+    margin-top: 15%;
 }
 
 #a:hover {
@@ -39,7 +39,7 @@ p {
 #backbutton{
     font-family: "Press Start 2P", sans-serif;
     color: aliceblue;
-    font-size: xx-large;
+    font-size: 1.7vw;
     text-decoration: none;
     top: 1%;
     margin-left: 5px;
@@ -66,7 +66,7 @@ a.fill-div {
 #ti{
     margin-left: auto;
     margin-right: auto;
-    width: 650px;
+    width: 40vw;
 }
 
 
@@ -81,8 +81,8 @@ a.fill-div {
     border: 5px solid;
     padding: 30px;
     border-color: rgb(25, 26, 44);
-    width: 1200px;
-    height: 800px;
+    width: 65%;
+    height: 80%;
     font-size: 22px;
     background: rgb(22, 19, 34);
    
@@ -100,15 +100,14 @@ a.fill-div {
 
 #boxres {
     border: 5px solid;
-    padding: 30px;
+    padding: 2%;
     border-color: rgb(25, 26, 44);
-    width: 800px;
-    height: 900px;
-    font-size: 22px;
+    width: 40%;
+    height: 80%;
     background: rgb(22, 19, 34);
    
     position: absolute;
-    top:50px;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -121,15 +120,14 @@ a.fill-div {
 
 #box1 {
     border: 5px solid;
-    padding: 30px;
+    padding: 2%;
     border-color: rgb(25, 26, 44);
-    width: 450px;
-    height: 400px;
-    font-size: 22px;
+    width: 25%;
+    height: 43%;
     background: rgb(22, 19, 34);
    
     position: absolute;
-    top:50px;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -144,11 +142,10 @@ a.fill-div {
     border: 5px solid;
     padding: 30px;
     border-color: rgb(12, 12, 11);
-    width: 400px;
-    height: 250px;
-    font-size: 22px;
+    width: 35%;
+    height: 32%;
     background: rgb(12, 12, 11);
-    margin-left: 2%;
+    margin-left: 3vw;
     margin-top: 5%;
     
 }
@@ -161,11 +158,11 @@ a.fill-div {
     border: 5px solid;
     padding: 30px;
     border-color: rgb(12, 12, 11);
-    width: 400px;
-    height: 250px;
-    font-size: 22px;
+    width: 35%;
+    height: 32%;
     background: rgb(12, 12, 11);
-    margin-left: 15%;
+    margin-left: 1vw;
+    margin-right: 2vw;
     margin-top: 5%;
 
 }
